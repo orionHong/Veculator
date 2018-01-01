@@ -175,6 +175,7 @@ class ViewController: UIViewController {
         //brain.setInputType(type: isDisplayingAVector)
         userIsInTheMiddleOfTyping = false
         hasPressedDot = false
+        print("\(isLastPressedButtonAOperation)")
         if let mathsSymbol = sender.currentTitle {
             brain.performOperation(symbol: mathsSymbol, isLastPressedAnOperation: isLastPressedButtonAOperation)
             //isAnswerAVector = brain.answerState

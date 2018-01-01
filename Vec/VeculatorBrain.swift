@@ -154,6 +154,17 @@ class VeculatorBrain {
     }
     
     private let operations: Dictionary<String, Operation> = [
+        "gcd" : Operation.BinaryOperation({
+            var a = (Int)($0.0)
+            var b = (Int)($1.0)
+            var remainder = a % b
+            while (remainder != 0) {
+                a = b
+                b = remainder
+                remainder = a % b
+            }
+            return ((Double)(b),0.0)
+            }),
         "π": Operation.Constant((Double.pi, 0.0)),
         "√": Operation.UnaryOperation({
             var ratio = 1.0 / sqrt(sqrt($0.0 * $0.0 + $0.1 * $0.1))
@@ -185,7 +196,8 @@ class VeculatorBrain {
         "×": true,
         "√": true,
         "·": false,
-        "π": false
+        "π": false,
+        "gcd": false
     ]
     
     private enum Operation {
