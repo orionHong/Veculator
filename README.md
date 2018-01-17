@@ -11,7 +11,7 @@ A vector(R2) calculator programmed in swift. Individual Project.
 Directory **_Vec_** contains source code and can be opened using Xcode directly.
 <br>File **VeculatorBrain.swift** is the Model component.
 <br>File **ViewController.swift** is the Controller component.
-<br>File **Base.Iproj/Main.storyboard" is a single page View component. 
+<br>File **Base.Iproj/Main.storyboard"** is a single page View component. 
 
 ## Future Development
 This app will probably not be on app store. A negative button needs to be added. What I have now is only a direction switching button. When I want it to be on the app store, many adjustments are needed.
