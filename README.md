@@ -1,9 +1,14 @@
 # Veculator
-University of Winnipeg Collegiate CS40S Term Project. A vector calculator programmed in swift.
+A vector(R2) calculator programmed in swift. Individual Project.
+<br>A "vectorized" verson of Calculator in Stanford CS193P 
+<br>Aims for self-learning purposes
 
 ## Tool Used
-Xcode, swift 3.0
-<br>
+- Xcode, swift 3.0
+- Implemented in MVC framework
+
+## Notes
+Directory **_Vec_** contains source code and can be opened using Xcode directly.
 
 ## Future Development
 This app will probably not be on app store. A negative button needs to be added. What I have now is only a direction switching button. When I want it to be on the app store, many adjustments are needed.
