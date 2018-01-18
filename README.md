@@ -1,7 +1,7 @@
 # Veculator
 A vector(R2) calculator programmed in swift. Individual Project.
 <br>A "vectorized" verson of Calculator in Stanford CS193P 
-<br>Aims for self-learning purposes
+<br>Aims for **self-learning** purposes
 
 ## Tool Used
 - Xcode, swift 3.0
