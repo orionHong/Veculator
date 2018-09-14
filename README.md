@@ -6,7 +6,7 @@ A vector(R2) calculator programmed in swift. Individual Project.
 
 ## Tool Used
 - Xcode, swift 3.0
-- Implemented in MVC framework
+- Implemented using MVC Pattern
 
 ## Notes
 - Directory **_Vec_** contains source code and can be opened using Xcode directly.
