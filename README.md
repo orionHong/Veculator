@@ -4,7 +4,7 @@ A vector(R2) calculator programmed in swift. Individual Project.
 <br>Aims for **self-learning** purposes
 - Development Period(including learning swift) - 2 weeks
 
-## Tool Used
+## Highlights
 - Xcode, swift 3.0
 - Implemented using MVC Pattern
 
